@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('');
+background-size: cover;
+background-position: center;
+font-family: 'Karla';
+font-size: 16px;
+}
+
+#card{
+    width: 600px;
+    height: 450px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+#top{
+    width: 100%;
+    height: 40%;
+    padding-left: 20px;
+}
+
+#top h2{
+    padding: 20px 20px;
+    color:hsl(179, 62%, 43%);
+
+}
+
+#top h4{
+    margin-left: 20px;
+    color: #A9C42D;
+}
+
+#top p{
+    opacity: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: 0.50;
+}
+
+#top #p2{
+    opacity: 50%;
+    margin-left: 20px;
+    margin-top: 5px; 
+    opacity: 0.50;
+}
+
+#bottom{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+
+#bot-left{
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ab2af
+}
+
+#bot-left h3{
+    padding: 30px 30px;
+    color: white;
+    opacity: 0.9;
+}
+
+#bot-left #other{
+    display: flex;
+}
+
+#bot-left #mon{
+    color: white;
+    opacity: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#bot-left #tag{
+    padding-left: 20px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+#bot-left p{
+    padding: 10px 20px ;
+    color: white;
+    margin-left: 10px;
+    opacity: 0.80;
+}
+
+button{
+    height: 8vh;
+    width: 35vh;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: none;
+    background-color: hsl(71, 63%, 53%);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #A9C42D;
+    transform: scale(1.01);
+}
+
+#bot-right{
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: #2EBFBD;
+}
+
+#bot-right h4{
+    color: white;
+    padding: 30px 30px;
+    opacity: 1;
+}
+
+#bot-right ul{
+    color: white;
+    padding-left: 30px;
+    opacity: 0.50;
+    font-size: 1rem;
+    list-style: none;
+}
+
+#bot-right li{
+    margin-bottom: 5px;
+
+}
